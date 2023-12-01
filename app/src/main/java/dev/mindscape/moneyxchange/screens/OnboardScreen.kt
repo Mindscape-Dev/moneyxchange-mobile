@@ -53,9 +53,9 @@ fun OnboardScreen(navController: NavHostController){
                 backgroundColor = Color(0xFF0a020f),
                 mainColor = Yellow,
                 mainText = "Effortless Currency Conversions Made Easy",
-                subText = "Seamlessly convert between different currency pairs using MoneyXChange! " +
-                        "Enjoy the convenience of swift and accurate currency conversions, " +
-                        "making international transactions and travel hassle-free."
+                subText = "Effortlessly convert between different currency pairs using MoneyXChange!" +
+                        "Benefit from fast and accurate currency conversions that you can easily use" +
+                        "for international transactions and travel."
             )
         )
         items.add(

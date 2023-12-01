@@ -12,6 +12,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.navigation.compose.rememberNavController
 import dev.mindscape.moneyxchange.graph.RootNavGraph
+import dev.mindscape.moneyxchange.screens.ExchangeScreen
 import dev.mindscape.moneyxchange.ui.theme.MoneyXChangeTheme
 
 class MainActivity : ComponentActivity() {
@@ -23,7 +24,8 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    RootNavGraph(navHostController = rememberNavController())
+//                    RootNavGraph(navHostController = rememberNavController())
+                    ExchangeScreen()
                 }
             }
         }
